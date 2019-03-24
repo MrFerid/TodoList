@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body class="bg-secondary">
+    
+    <div class="todo">
+        <div class="list-h text-center py-2 "> My Todo List </div>
+        <div class="nvg d-flex mt-4">
+                <button onclick="setToAll(event)" id="1"><i class="far text-danger fa-check-circle mr-1"></i> Set all as done</button>
+                <button onclick="setToAll(event)" id="2"><i class="far text-danger fa-trash-alt mr-1"></i>Completed tasks</button>
+                <button onclick="setToAll(event)" id="3"><i class="fas text-danger fa-trash mr-1"></i>All tasks</button>
+        </div>
+        <div class="list-b bg-white">
+            <ul class="list-group">
+            </ul>
+        </div>
+
+        <div class="list-f">
+            <button onclick="addItem()">+ New Task</button>
+            <input class="d-block w-100 mt-3" placeholder="Add new task" type="text">
+        </div>
+
+        
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+.todo{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.list-h{
+    font-weight: bold;
+    color: #fff;
+    font-size: 2rem;
+    background: #e74c3c;
+}
+
+.list-b{
+    padding: 2rem 2rem 4rem 4rem;
+}
+
+ul{
+    max-height: 13rem;
+    overflow: auto;
+}
+
+
+ul li{
+    font-size: 1.2rem;
+    border: none!important;
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 1.25rem!important;
+
+}
+
+ul li:hover .del{
+    visibility: visible;
+    cursor: pointer;
+}
+
+ul li span{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    padding-right: .5rem;
+    cursor: pointer;
+}
+
+ul li i{
+    font-size: .6rem;
+    margin-right: .7rem;
+}
+
+ul li .del{
+    font-size: 1rem;
+    color: #e74c3c;
+    visibility: hidden;
+}
+
+.list-f{
+    margin-top: -1.5rem;
+    text-align: center;
+}
+
+.list-f button{
+    border-radius: 1rem;
+    height: 3rem;
+    width: 9rem;
+    border:none;
+    font-weight: bold;
+    color: #fff;
+    background: #e74c3c;
+}
+
+.list-f input{
+    height: 2.5rem;
+    padding: .5rem;
+}
+
+.nvg button{
+    flex:1;
+}
